@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bbce05-7f8b-4f0f-b135-a2d04684eb84" name="默认的" comment="" />
+    <list default="true" id="28bbce05-7f8b-4f0f-b135-a2d04684eb84" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_demo.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-210">
@@ -48,6 +51,20 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -96,6 +113,7 @@
       <find>select</find>
       <find>aop</find>
       <find>string</find>
+      <find>jackson.core</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -103,6 +121,9 @@
     <dirStrings>
       <dir>F:\work\ssm_demo\src\main\resources\webapp\WEB-INF</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAuth.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/model/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/dept/mapper/DeptMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/confi/aop/ApiAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAuth.java" />
@@ -158,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,12 +221,13 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="688" />
     <option name="y" value="91" />
     <option name="width" value="1845" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -213,7 +235,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -544,7 +581,7 @@
       <workItem from="1542421127071" duration="5547000" />
       <workItem from="1563341967173" duration="13758000" />
       <workItem from="1563358529667" duration="12317000" />
-      <workItem from="1563426202249" duration="427000" />
+      <workItem from="1563426202249" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -563,10 +600,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32049000" />
+    <option name="totallyTimeSpent" value="32882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24455206" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -593,7 +631,7 @@
       <window_info anchor="bottom" id="运行" order="12" weight="0.18712029" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="找到" order="14" weight="0.32928312" />
-      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="调试" order="16" weight="0.23329283" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="18" />
@@ -647,13 +685,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/sys/model/Result.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAspect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAuth.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
@@ -890,6 +914,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
         </state>
       </provider>
     </entry>
