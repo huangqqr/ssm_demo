@@ -1,4 +1,10 @@
 # ssm_demo
-春用SpringMVC + +的MyBatis
+使用Spring + SpringMVC +MyBatis
+
 SSM框架基本配置
+
+Mybatis逆向工程
+
 添加AOP面向切面编程，数据接口请求时都先校验密钥
+
+
