@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<!-- 制定oracle 的驱动包的路径 千万别放中文路径下 -->
+	<!--<classPathEntry location="D:\java\ep\ojdbc14-10.2.0.2.0.jar" />
+	-->
+	<!-- 制定mybatis 的驱动包的路径 千万别放中文路径下 -->
+	<classPathEntry location="C:\leapmotor\tools\mysql\mysql-connector-java-5.1.47.jar" />
+
+	<!-- 配置数据源和生成的代码所存放的位置 -->
+	<context id="context1">
+		<commentGenerator>
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<!-- oracle -->
+		<!--<jdbcConnection driverClass="oracle.jdbc.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:orcl" userId="sweet2" password="sweet2" />
+		-->
+		<!-- mysql -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+						connectionURL="jdbc:mysql://localhost:3306/ssm_demo?characterEncoding=utf-8"
+						userId="root"
+						password="root"/>
+
+		<!-- 实体类  所生成的实体类的位置默认资源包src -->
+		<javaModelGenerator targetPackage="com.hb.ssm.model" targetProject="src/main/java" />
+		<!-- dao.xml 所生成的sqlMap的影射文件的位置,默认资源包src -->
+		<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources" />
+
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.hb.ssm.mapper"  targetProject="src/main/java">
+			<!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="enableSubPackages" value="false" />
+		</javaClientGenerator>
+
+		<!--<sqlMapGenerator targetPackage="com.hb.ssm.mapper" targetProject="src/main/java" />-->
+		<!-- 为哪些表生成代码 tableName:表名 schema:不用填写 -->
+		<table schema="" tableName="tb_test" enableCountByExample="false"
+			   enableUpdateByExample="false" enableDeleteByExample="false"
+			   enableSelectByExample="false" selectByExampleQueryId="false">
+		</table>
+	</context>
+</generatorConfiguration>

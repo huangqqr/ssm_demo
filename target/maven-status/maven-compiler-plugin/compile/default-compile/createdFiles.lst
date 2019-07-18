@@ -1,0 +1,13 @@
+com\hb\ssm\user\model\User.class
+com\hb\ssm\sys\aop\ApiAspect.class
+com\hb\ssm\dept\model\Dept.class
+com\hb\ssm\user\mapper\UserMapper.class
+com\hb\ssm\sys\model\Result.class
+com\hb\ssm\dept\service\DeptService.class
+com\hb\ssm\dept\service\impl\DeptServiceImpl.class
+com\hb\ssm\sys\generate\GeneratorSqlmap.class
+com\hb\ssm\dept\mapper\DeptMapper.class
+com\hb\ssm\dept\controller\DeptController.class
+com\hb\ssm\user\service\impl\UserServiceImpl.class
+com\hb\ssm\user\controller\UserController.class
+com\hb\ssm\user\service\Userservice.class
