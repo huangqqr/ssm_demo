@@ -221,7 +221,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="688" />
     <option name="y" value="91" />
     <option name="width" value="1845" />
@@ -581,7 +581,7 @@
       <workItem from="1542421127071" duration="5547000" />
       <workItem from="1563341967173" duration="13758000" />
       <workItem from="1563358529667" duration="12317000" />
-      <workItem from="1563426202249" duration="1260000" />
+      <workItem from="1563426202249" duration="1875000" />
     </task>
     <servers />
   </component>
@@ -600,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32882000" />
+    <option name="totallyTimeSpent" value="33497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
