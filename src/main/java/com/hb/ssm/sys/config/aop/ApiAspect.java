@@ -44,11 +44,11 @@ public class ApiAspect {
     /**
      * 配置切入点,该方法无方法体,主要为方便同类中其他方法使用此处配置的切入点,第一种配置切入点的方法
      */
-    @Pointcut("execution(* com.hb.ssm.*.controller.*.*(..))")
+    @Pointcut("execution(* com.hb.ssm.rest.*.controller.*.*(..))")
     public void checkRequest() {
     }
 
-    @Pointcut("execution(* com.hb.ssm.*.controller.*.*(..))")
+    @Pointcut("execution(* com.hb.ssm.rest.*.controller.*.*(..))")
     public void checkRequest1() {
     }
 

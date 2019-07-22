@@ -14,7 +14,7 @@
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
     <!-- 扫描web相关的bean -->
-    <context:component-scan base-package="com.hb.ssm.*.controller"/>
+    <context:component-scan base-package="com.hb.ssm.rest.*.controller"/>
     <!-- AOP 注解方式 ；定义Aspect -->
     <!-- 启动AspectJ支持   只对扫描过的bean有效-->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
@@ -24,7 +24,7 @@
     </bean>
     <aop:config>
         <aop:aspect ref="apiAspect">
-            <aop:pointcut id="controlPointcut" expression="execution(* com.hb.ssm.*.controller.*.*(..))"></aop:pointcut>
+            <aop:pointcut id="controlPointcut" expression="execution(* com.hb.ssm.rest.*.controller.*.*(..))"></aop:pointcut>
 <!--            <aop:before method="checkRequest" pointcut-ref="controlPointcut"></aop:before>-->
         </aop:aspect>
     </aop:config>

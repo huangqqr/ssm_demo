@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AntDuplicateTargetsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AntMissingPropertiesFileInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AntResolveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AppEngineForbiddenCode" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BatchJobDomInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BatchXmlDomInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BpmnConfigDomInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ComposeUnknownKeys" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ComposeUnknownValues" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="FacesModelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Geronimo" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Glassfish" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JBoss" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JpdlModelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JsfJamExtendsClassInconsistencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JsfManagedBeansInconsistencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="RequiredArtifactTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Weblogic" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

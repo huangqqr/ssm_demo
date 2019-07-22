@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/testm1563772984293" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1563772984293" name="" targetNamespace="http://www.activiti.org/testm1563772984293" typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <process id="shenqing" isClosed="false" isExecutable="true" processType="None">
+    <startEvent id="KK1" name="开始"/>
+    <userTask activiti:assignee="小张" activiti:exclusive="true" id="KK2" name="提成修改申请"/>
+    <userTask activiti:assignee="黄经理" activiti:exclusive="true" id="KK3" name="领导审批"/>
+    <endEvent id="KK4" name="结束"/>
+    <sequenceFlow id="_6" sourceRef="KK1" targetRef="KK2"/>
+    <sequenceFlow id="_7" sourceRef="KK2" targetRef="KK3"/>
+    <sequenceFlow id="_8" sourceRef="KK3" targetRef="KK4"/>
+  </process>
+  <bpmndi:BPMNDiagram documentation="background=#3C3F41;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
+    <bpmndi:BPMNPlane bpmnElement="shenqing">
+      <bpmndi:BPMNShape bpmnElement="KK1" id="Shape-KK1">
+        <dc:Bounds height="32.0" width="32.0" x="80.0" y="40.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="KK2" id="Shape-KK2">
+        <dc:Bounds height="55.0" width="85.0" x="235.0" y="25.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="KK3" id="Shape-KK3">
+        <dc:Bounds height="55.0" width="85.0" x="400.0" y="25.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="KK4" id="Shape-KK4">
+        <dc:Bounds height="32.0" width="32.0" x="590.0" y="35.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_6" id="BPMNEdge__6" sourceElement="K1" targetElement="K2">
+        <di:waypoint x="112.0" y="56.0"/>
+        <di:waypoint x="235.0" y="52.5"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_7" id="BPMNEdge__7" sourceElement="K2" targetElement="K3">
+        <di:waypoint x="320.0" y="52.5"/>
+        <di:waypoint x="400.0" y="52.5"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_8" id="BPMNEdge__8" sourceElement="K3" targetElement="K4">
+        <di:waypoint x="485.0" y="52.5"/>
+        <di:waypoint x="590.0" y="51.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

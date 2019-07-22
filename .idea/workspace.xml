@@ -7,8 +7,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28bbce05-7f8b-4f0f-b135-a2d04684eb84" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkDeploy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkProcessApproval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQueryProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/activiti.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/WorkTestNew.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/abc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/hello.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activiti/bpmn/test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/service/Userservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/service/Userservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/rest/dept/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hb/ssm/rest/dept/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/sys/config/aop/ApiAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hb/ssm/sys/config/aop/ApiAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/user/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/user/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/user/service/Userservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hb/ssm/user/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/rest/dept/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/rest/dept/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/sys/config/aop/ApiAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/sys/config/aop/ApiAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/user/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/user/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/user/service/Userservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/com/hb/ssm/user/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-test-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_demo/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,31 +83,28 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ssm_demo" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkDeploy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="193">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="3" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,42 +113,89 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="143">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQueryProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8148">
-              <caret line="420" selection-start-line="420" selection-end-line="420" />
+            <state relative-caret-position="49">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/model/Result.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkProcessApproval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="54">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/query/Query.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="94" />
+            <state relative-caret-position="93">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/TaskService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,10 +207,11 @@
       <list>
         <option value="HTML File" />
         <option value="XSLT Stylesheet" />
+        <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
+        <option value="BpmnFile" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -114,6 +221,10 @@
       <find>aop</find>
       <find>string</find>
       <find>jackson.core</find>
+      <find>张三</find>
+      <find>com.hb.ssm</find>
+      <find>batis</find>
+      <find>complete</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -128,23 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/service/impl/user/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/sys/model/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/service/user/Userservice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/service/impl/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/mapper/user/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ws/lyao/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/lyao/mapper/user/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/impl/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/model/Dept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/DeptService.java" />
         <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/hb/ssm/dept/mapper/DeptMapper.java" />
@@ -160,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/dept/service/DeptService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/dept/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/dept/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/user/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generate/generatorConfig.xml" />
@@ -174,11 +267,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/confi/aop/ApiAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/AppConfig.java" />
+        <option value="$PROJECT_DIR$/test.bpmn" />
+        <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti/bpmn/test.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti/bpmn/hello.bpmn" />
+        <option value="$PROJECT_DIR$/src/test/java/ActivitiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti/bpmn/abc.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQueryProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/activiti/bpmn/WorkTestNew.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkDeploy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkProcessApproval.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkTable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
       </list>
     </option>
   </component>
@@ -221,9 +332,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="688" />
-    <option name="y" value="91" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="766" />
+    <option name="y" value="9" />
     <option name="width" value="1845" />
     <option name="height" value="990" />
   </component>
@@ -231,7 +342,7 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -247,19 +358,144 @@
               <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hb" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -269,24 +505,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\resources\generate" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\resources" />
-      <recent name="F:\work\ssm_demo\src\main" />
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com\hb\ssm\sys\confi\aop" />
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com\hb" />
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com" />
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\hb\ssm\user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hb.ssm.controller.user" />
       <recent name="hb.ssm.dept.controller.user" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com\hb\ssm\sys\confi\aop" />
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com\hb" />
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\com" />
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\java\hb\ssm\user" />
-      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\resources\generate" />
+      <recent name="C:\leapmotor\work\idea\private\demo\ssm_demo\src\main\resources" />
+      <recent name="F:\work\ssm_demo\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,19 +556,6 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.sys.generate.GeneratorSqlmap" />
-      <module name="ssm_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hb.ssm.sys.generate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,11 +597,83 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.selectId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyWorkProcessApproval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="selectId" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.ssm.rest.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb.ssm.rest.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.rest.activiti.MyWorkProcessApproval" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWorkProcessApproval.startProcessApproval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.ssm.rest.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb.ssm.rest.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.rest.activiti.MyWorkProcessApproval" />
+      <option name="METHOD_NAME" value="startProcessApproval" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWorkQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.ssm.rest.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb.ssm.rest.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.rest.activiti.MyWorkQuery" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWorkQueryProcess.queryProcdef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.ssm.rest.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb.ssm.rest.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.rest.activiti.MyWorkQueryProcess" />
+      <option name="METHOD_NAME" value="queryProcdef" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWorkQuery.queryTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hb.ssm.rest.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hb.ssm.rest.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.hb.ssm.rest.activiti.MyWorkQuery" />
+      <option name="METHOD_NAME" value="queryTask" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -556,15 +852,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.GeneratorSqlmap" />
-      <item itemvalue="JUnit.Test.selectId" />
       <item itemvalue="Maven.generator:generate" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="JUnit.MyWorkQuery.queryTask" />
+      <item itemvalue="JUnit.MyWorkQueryProcess.queryProcdef" />
+      <item itemvalue="JUnit.MyWorkProcessApproval.startProcessApproval" />
+      <item itemvalue="JUnit.MyWorkQuery" />
+      <item itemvalue="JUnit.MyWorkProcessApproval" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeneratorSqlmap" />
-        <item itemvalue="JUnit.Test.selectId" />
+        <item itemvalue="JUnit.MyWorkProcessApproval" />
+        <item itemvalue="JUnit.MyWorkQueryProcess.queryProcdef" />
+        <item itemvalue="JUnit.MyWorkQuery.queryTask" />
+        <item itemvalue="JUnit.MyWorkQuery" />
+        <item itemvalue="JUnit.MyWorkProcessApproval.startProcessApproval" />
       </list>
     </recent_temporary>
   </component>
@@ -581,52 +883,90 @@
       <workItem from="1542421127071" duration="5547000" />
       <workItem from="1563341967173" duration="13758000" />
       <workItem from="1563358529667" duration="12317000" />
-      <workItem from="1563426202249" duration="1875000" />
+      <workItem from="1563426202249" duration="2755000" />
+      <workItem from="1563499485115" duration="4064000" />
+      <workItem from="1563503995376" duration="1014000" />
+      <workItem from="1563505358292" duration="789000" />
+      <workItem from="1563506197300" duration="36000" />
+      <workItem from="1563506289823" duration="954000" />
+      <workItem from="1563509316414" duration="2096000" />
+      <workItem from="1563514313901" duration="1307000" />
+      <workItem from="1563516802453" duration="591000" />
+      <workItem from="1563517571944" duration="3037000" />
+      <workItem from="1563772611806" duration="7140000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_selectId - 2018.11.17 at 10h 57m 40s.xml">
-      <configuration name="Test.selectId" configurationId="JUnit" />
+    <history-entry file="MyWorkQuery_queryTask - 2019.07.22 at 16h 27m 58s.xml">
+      <configuration name="MyWorkQuery.queryTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_selectId - 2018.11.17 at 10h 59m 23s.xml">
-      <configuration name="Test.selectId" configurationId="JUnit" />
+    <history-entry file="MyWorkQuery_queryTask - 2019.07.22 at 16h 41m 57s.xml">
+      <configuration name="MyWorkQuery.queryTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_selectId - 2018.11.17 at 11h 00m 34s.xml">
-      <configuration name="Test.selectId" configurationId="JUnit" />
+    <history-entry file="MyWorkQuery_queryTask - 2019.07.22 at 16h 42m 13s.xml">
+      <configuration name="MyWorkQuery.queryTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_selectId - 2018.11.17 at 11h 02m 31s.xml">
-      <configuration name="Test.selectId" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_queryTask - 2019.07.22 at 16h 46m 02s.xml">
+      <configuration name="ActivitiTest.queryTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkQueryProcess_queryProcdef - 2019.07.22 at 16h 46m 35s.xml">
+      <configuration name="MyWorkQueryProcess.queryProcdef" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkProcessApproval_startProcessApproval - 2019.07.22 at 16h 47m 09s.xml">
+      <configuration name="MyWorkProcessApproval.startProcessApproval" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkProcessApproval_startProcessApproval - 2019.07.22 at 16h 47m 45s.xml">
+      <configuration name="MyWorkProcessApproval.startProcessApproval" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkQuery_queryTask - 2019.07.22 at 16h 55m 03s.xml">
+      <configuration name="MyWorkQuery.queryTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkQueryProcess_queryProcdef - 2019.07.22 at 16h 55m 41s.xml">
+      <configuration name="MyWorkQueryProcess.queryProcdef" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyWorkProcessApproval - 2019.07.22 at 16h 56m 08s.xml">
+      <configuration name="MyWorkProcessApproval" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33497000" />
+    <option name="totallyTimeSpent" value="55405000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24455206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32336298" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Nl-Palette" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Favorites" order="7" sideWeight="0.50151056" side_tool="true" weight="0.13317192" />
       <window_info id="设计师" order="8" />
       <window_info id="Designer" order="9" />
+      <window_info id="BPMN Editor" order="10" sideWeight="0.49848944" weight="0.24232082" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6194853" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.748184" weight="0.3915441" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77159" weight="0.48133594" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21441774" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8916734" visible="true" weight="0.3012939" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.28617623" weight="0.4085028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3915441" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32928312" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25181597" side_tool="true" weight="0.34375" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.7138238" side_tool="true" weight="0.42144176" />
       <window_info anchor="bottom" id="消息" order="11" weight="0.32928312" />
       <window_info anchor="bottom" id="运行" order="12" weight="0.18712029" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -635,7 +975,7 @@
       <window_info anchor="bottom" id="调试" order="16" weight="0.23329283" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="18" />
-      <window_info anchor="bottom" id="Messages" order="19" sideWeight="0.84584343" weight="0.09626719" />
+      <window_info anchor="bottom" id="Messages" order="19" sideWeight="0.84584343" weight="0.09426987" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.12025827" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -651,6 +991,7 @@
       <window_info anchor="right" id="CDI" order="12" />
       <window_info anchor="right" id="Bean Validation" order="13" weight="0.3297572" />
       <window_info anchor="right" id="Palette" order="14" />
+      <window_info anchor="right" id="BPMNPalette" order="15" weight="0.07508533" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,6 +1001,11 @@
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="result" language="JAVA" />
+      </configuration>
+      <configuration name="JUnit">
+        <watch expression="processEngine.getRepositoryService()" language="JAVA" />
+        <watch expression="taskService.createTaskQuery().taskAssignee(&quot;&quot;).list()" language="JAVA" />
+        <watch expression="taskService.createTaskQuery().taskAssignee(&quot;张三&quot;).list()" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="cp.parseConfiguration(configFile)" language="JAVA" />
@@ -673,6 +1019,26 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+        <expression-string>taskService.createTaskQuery().taskAssignee(&quot;张三&quot;).list()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>processEngine.getRepositoryService()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>taskService.createTaskQuery().taskAssignee(&quot;&quot;).list()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>taskService.createTaskQuery().taskAssignee(assignee).list()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>result</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -685,133 +1051,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/sys/model/Result.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/service/user/Userservice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/model/user/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/service/impl/user/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/mapper/user/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/dept/model/Dept.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/DeptService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/dept/controller/DeptController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/dept/service/impl/DeptServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/dept/mapper/DeptMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/controller/user/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/user/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/user/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/user/service/Userservice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/user/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hb/ssm/user/model/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/sys/model/Result.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/user/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/user/service/Userservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/model/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/user/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2142" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar!/org/mybatis/generator/config/xml/ConfigurationParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generate/generatorConfig.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/model/TbTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/mapper/TbTestMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/generate/GeneratorSqlmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -840,16 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/mapper/DeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/service/impl/DeptServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -872,19 +1103,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAspect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/aop/ApiAuth.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="3" selection-end-line="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -900,30 +1127,297 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/activiti.cfg.tld" />
+    <entry file="file://$PROJECT_DIR$/test.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=C:/leapmotor/work/idea/private/demo/ssm_demo/src/main/resources/activiti/bpmn/test.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/hello.bpmn" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="94" />
+        <state relative-caret-position="106">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/config/aop/ApiAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="34" column="77" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/sys/generate/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/abc.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="bpmn-editor" />
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/abc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://BPMN_2_0/ssm_demo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>ssm_demo</OriginalElement>
+          <nodes>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @62595</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @62613</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @62608</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @62603</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @62598</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8087431693989071" x="61.5" y="173.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=C:/leapmotor/work/idea/private/demo/ssm_demo/src/main/resources/activiti/bpmn/abc.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=C:/leapmotor/work/idea/private/demo/ssm_demo/src/main/resources/activiti/bpmn/abc.xml</OriginalElement>
+          <nodes>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @62808</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @62798</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @62803</node>
+            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @62795</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="64.5" y="133.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/task/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/RuntimeService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti/bpmn/WorkTestNew.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=C:/leapmotor/work/idea/private/demo/ssm_demo/src/main/resources/activiti/bpmn/WorkTestNew.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=C:/leapmotor/work/idea/private/demo/ssm_demo/src/main/resources/activiti/bpmn/WorkTestNew.xml</OriginalElement>
+          <nodes>
+            <node x="20.0" y="160.0">&lt;invalid&gt;</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="&lt;invalid&gt;" target="&lt;invalid&gt;">
+              <point x="0.0" y="13.0" />
+              <point x="0.0" y="-13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-180.5" y="165.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/query/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ActivitiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.18.0/activiti-engine-5.18.0.jar!/org/activiti/engine/TaskService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state relative-caret-position="143">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/dept/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkQueryProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkProcessApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkDeploy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hb/ssm/rest/activiti/MyWorkTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,6 +1497,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

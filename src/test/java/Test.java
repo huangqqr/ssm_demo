@@ -7,8 +7,10 @@
  * @描叙:
  */
 
-import com.hb.ssm.user.mapper.UserMapper;
-import com.hb.ssm.user.model.User;
+import com.hb.ssm.rest.user.mapper.UserMapper;
+import com.hb.ssm.rest.user.model.User;
+import org.activiti.engine.ProcessEngine;
+import org.activiti.engine.ProcessEngineConfiguration;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;

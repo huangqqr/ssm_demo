@@ -10,12 +10,11 @@ package com.hb.ssm.rest.dept.mapper;
 
 
 import com.hb.ssm.rest.dept.model.Dept;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * Created by Administrator on 2018/11/17/017.
  */
-@Mapper
+
 public interface DeptMapper {
 
     public Dept selectById(Integer id);
