@@ -9,6 +9,6 @@ Mybatis逆向工程
 
 添加activiti工作流程
 
-注意事项：使用activiti实现工作流程 mybatis需是3.2.5版本
+注意事项：使用activiti实现工作流程 mybatis需是3.2.5版本 高于此版本taskService会生成两个 ORDER BY
 
 
