@@ -11,11 +11,15 @@ package com.hb.ssm.rest.user.mapper;
 
 import com.hb.ssm.rest.user.model.User;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2018/11/17/017.
  */
 public interface UserMapper {
 
     public User selectByPrimaryKey(Integer id);
+
+    public List<User> selectAll();
 
 }

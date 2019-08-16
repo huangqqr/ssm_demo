@@ -48,10 +48,6 @@ public class ApiAspect {
     public void checkRequest() {
     }
 
-    @Pointcut("execution(* com.hb.ssm.rest.*.controller.*.*(..))")
-    public void checkRequest1() {
-    }
-
     /**
      * aop前置通知
      * @Author: huangbo
@@ -76,22 +72,22 @@ public class ApiAspect {
      * @Author: huangbo
      * @Date: 2019/7/18
      */
-    @Around("checkRequest()")
-    private Object around(JoinPoint joinPoint) throws Throwable {
-        ProceedingJoinPoint tempJoinPoint = (ProceedingJoinPoint) joinPoint;
-        //Object object = tempJoinPoint.proceed();
-        Result result = null;
-        //try {
-        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-        //String signature = request.getHeader("signature");
-        String signature = request.getParameter("signature");
-        logger.info("request header 的 signature 参数" + signature);
-
-        if (StringUtils.isNotBlank(signature) && SIGNATURE.equals(signature)) {
-            result = (Result) tempJoinPoint.proceed();
-            return result;
-        } else {
-            return new Result("签名不正确，或没有签名",false);
-        }
-    }
+    //@Around("checkRequest()")
+    //private Object around(JoinPoint joinPoint) throws Throwable {
+    //    ProceedingJoinPoint tempJoinPoint = (ProceedingJoinPoint) joinPoint;
+    //    //Object object = tempJoinPoint.proceed();
+    //    Result result = null;
+    //    //try {
+    //    HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+    //    //String signature = request.getHeader("signature");
+    //    String signature = request.getParameter("signature");
+    //    logger.info("request header 的 signature 参数" + signature);
+    //
+    //    if (StringUtils.isNotBlank(signature) && SIGNATURE.equals(signature)) {
+    //        result = (Result) tempJoinPoint.proceed();
+    //        return result;
+    //    } else {
+    //        return new Result("签名不正确，或没有签名",false);
+    //    }
+    //}
 }

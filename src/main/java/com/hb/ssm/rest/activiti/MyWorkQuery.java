@@ -23,7 +23,7 @@ public class MyWorkQuery {
     public void queryTask(){
         TaskService taskService = processEngine.getTaskService();
         //根据assignee(节点接受人)查询任务
-            String assignee = "张三";//
+            String assignee = "老王";//
         List<Task> tasks = taskService.createTaskQuery().taskAssignee(assignee).list();
 
         int size = tasks.size();

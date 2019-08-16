@@ -18,9 +18,10 @@ public class MyWorkProcessApproval {
     public void startProcessApproval(){
         TaskService taskService = processEngine.getTaskService();
         //taskId 就是查询任务中的 ID
-        String taskId = "2504";
+        String taskId = "17504";
         //完成请假申请任务
         taskService.complete(taskId);
+        System.out.println("=========");
     }
 
 }

@@ -16,6 +16,7 @@
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/ssm_demo?useUnicode=true&amp;characterEncoding=utf8"></property>
         <property name="jdbcUsername" value="root"></property>
         <property name="jdbcPassword" value="root"></property>
+
         <property name="databaseSchemaUpdate" value="true"></property>
         <property name="asyncExecutorActivate" value="false" ></property>
         <property name="mailServerHost" value="mail.my-corp.com" ></property>

@@ -20,5 +20,6 @@ public class MyWorkStart {
         RuntimeService runtimeService = processEngine.getRuntimeService();
         //流程的名称，对应流程定义表的key字段，也可以使用ByID来启动流程
         runtimeService.startProcessInstanceByKey("myProcess_1");
+        System.out.println("启动成功");
     }
 }

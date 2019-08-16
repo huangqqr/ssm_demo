@@ -7,7 +7,7 @@ import org.activiti.engine.repository.DeploymentBuilder;
 import org.junit.Test;
 
 /**
- * @description: 工作流程发布
+ * @description: 工作流程发布部署
  * @author: huangbo
  * @create: 2019-07-22 15:46
  **/
@@ -22,5 +22,6 @@ public class MyWorkDeploy {
         DeploymentBuilder builder = repositoryService.createDeployment();
         builder.addClasspathResource("activiti/bpmn/WorkTestNew.bpmn");//bpmn文件的名称
         builder.deploy();
+        System.out.println("部署成功");
     }
 }
