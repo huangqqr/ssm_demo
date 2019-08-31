@@ -9,7 +9,7 @@
         <module name="ssm_demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="ssm_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
